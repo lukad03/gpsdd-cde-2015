@@ -744,6 +744,10 @@
 			margin-right: 0.25em;
 		}
 
+		#main .subtitle {
+			text-align: center;
+		}
+
 	@media screen and (max-width: 480px) {
 
 		#main {
