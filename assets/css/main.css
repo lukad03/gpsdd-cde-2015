@@ -198,7 +198,8 @@
 	h1 {
 		font-size: 1.85em;
 		letter-spacing: 0.22em;
-		margin: 0 0 0.525em 0;
+		line-height: 1em;
+		margin: 0 0 0.3em 0;
 	}
 
 	h2 {
@@ -481,8 +482,7 @@
 
 	ul {
 		list-style: disc;
-		margin: 0 0 1.5em 0;
-		padding-left: 1em;
+		margin-bottom: 2em;
 	}
 
 		ul li {
@@ -707,7 +707,7 @@
 		margin: 0 auto;
 		max-width: 35em;
 		opacity: 0.95;
-		padding: 4.5em 3em 3em 3em ;
+		padding: 3.5em 3em 3em 3em ;
 		position: relative;
 		text-align: center;
 		width: 96%;
@@ -735,8 +735,13 @@
 			list-style: none;
 		}
 
+		#main li:first-child {
+			margin-bottom: 0.25em;
+		}
+
+
 		#main ul {
-			margin-top: 1.5em;
+			margin-top: 1em;
 		}
 
 		#main .label {
@@ -745,6 +750,7 @@
 		}
 
 		#main .subtitle {
+			margin-bottom: 1.5em;
 			text-align: center;
 		}
 
